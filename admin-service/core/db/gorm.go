@@ -2,6 +2,7 @@ package db
 
 import (
 	"admin-service/global"
+	"admin-service/model/gpt"
 	"admin-service/model/system"
 	"github.com/glebarez/sqlite"
 	"gorm.io/driver/mysql"
@@ -34,6 +35,8 @@ func InitializeTables() {
 
 		system.SysDictionary{},
 		system.SysDictionaryDetail{},
+
+		gpt.GptUser{},
 
 		//system.SysBaseMenuBtn{},
 		//system.SysBaseMenuParam{},

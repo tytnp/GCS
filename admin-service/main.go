@@ -11,6 +11,8 @@ import (
 //go:generate go env -w GOPROXY=https://goproxy.cn,direct
 //go:generate go mod tidy
 //go:generate go mod download
+//go build -o main
+//$env:GOOS = "linux"; $env:GOARCH = "amd64"; go build -o main
 
 func main() {
 	config.Viper()
