@@ -1,0 +1,29 @@
+:root {
+  --header-height: 70px;
+  --left-width: 220px;
+  --tabs-height: 49px;
+  --content-height: calc(100vh - var(--header-height) - var(--tabs-height));
+}
+
+.gcs-header {
+  .gcs-logo {
+    background: none;
+
+    .gcs-logo-content {
+      height: calc(var(--header-height) - 1px);
+    }
+  }
+
+  .gcs-header-content {
+    height: calc(var(--header-height) - 1px);
+  }
+}
+
+.gcs-menu {
+  height: calc(100vh - var(--header-height));
+}
+
+.gcs-content {
+  min-height: calc(var(--content-height) + 6px);
+  //min-height: calc(100vh - 70px - 43px);
+}

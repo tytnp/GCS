@@ -1,0 +1,25 @@
+sys-conf:
+  db-type: sqlite
+  router-prefix:
+  jwt_conf:
+    signing-key: 1bf5f22d-cb85-4d0b-aaca-af0ed8570515
+    expires-time: 7d
+    buffer-time: 1d
+    issuer: pgPlus
+
+mysql:
+  host: 127.0.0.1
+  port: 3306
+  username: root
+  password: root
+  db-name: gcs
+  param: charset=utf8mb4&parseTime=True&loc=Local
+  max-idle-conns: 5
+  max-open-conns: 50
+  log-mode: Info
+
+
+
+
+
+

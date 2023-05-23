@@ -1,3 +1,12 @@
 /.idea/
+/admin-web/node_modules/
+/admin-web/dist/
+/admin-web/.idea/
+
 /admin-service/tmp/
 /admin-service/admin-service.iml
+/admin-service/gcs.db
+/admin-service/resources/admin-dist/
+
+/gcs-gpt/node_modules/
+/admin-service/resources/gpt-dist/
